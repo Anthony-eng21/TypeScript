@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(
+    0deg,
+    rgb(61, 47, 58) 0%,
+    rgb(221, 213, 220) 50%,
+    rgba(51, 193, 215, 0.41) 100%
+    );
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    mix-blend-mode: color-burn;
+  }
+
+  input[type="text"] {
+    width: 50%;
+    margin: 10px;
+}
